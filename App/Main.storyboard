@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="40599uf7jd2qkijk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <deployment identifier="iOS" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527" />
+        <capability name="Safe area layout guides" minToolsVersion="9.0" />
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0" />
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="40599uf7jd2qkijk-scene">
+            <objects>
+                <viewController id="40599uf7jd2qkijk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="view-40599uf7jd2qkijk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667" />
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Slide to navigate through the menu" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlvn">
+<rect key="frame" x="125" y="622" width="130" height="9"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="9"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlth">
+                                <rect key="frame" x="23" y="343" width="329" height="259" />
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO"
+                                        id="40599uf1jd2qmlva">
+<rect key="frame" x="25" y="196" width="277" height="45"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="14"/>
+<state key="normal" title="Help Lucy change the World!">
+<color key="titleColor" red="0.06274509803921569" green="0.06274509803921569" blue="0.06274509803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="cornerRadius"><real key="value" value="9"/></userDefinedRuntimeAttribute></userDefinedRuntimeAttributes>
+    </button>
+
+
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlud">
+                                        <rect key="frame" x="73" y="129" width="176" height="3" />
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmluh">
+                                                <rect key="frame" x="133" y="0" width="43" height="3" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+
+                                                </subviews>
+                                            </view>
+
+
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlue">
+                                                <rect key="frame" x="0" y="0" width="128" height="3" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+
+                                                </subviews>
+                                            </view>
+
+                                        </subviews>
+                                    </view>
+
+
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlu1">
+                                        <rect key="frame" x="53" y="121" width="219" height="17" />
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlu5">
+                                                <rect key="frame" x="142" y="1" width="15" height="15" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="7" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+
+
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlu7">
+                                                <rect key="frame" x="202" y="0" width="16" height="17" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+
+                                                </subviews>
+                                            </view>
+
+
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlu3">
+                                                <rect key="frame" x="0" y="3" width="12" height="12" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+
+                                                </subviews>
+                                            </view>
+
+                                        </subviews>
+                                    </view>
+
+
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Hour 30 Minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmltz">
+<rect key="frame" x="98" y="100" width="125" height="12"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="16"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmluk">
+                                        <rect key="frame" x="23" y="153" width="278" height="26" />
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlv2">
+                                                <rect key="frame" x="214" y="0" width="63" height="26" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 h" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlv4">
+<rect key="frame" x="22" y="9" width="14" height="8"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="0.7" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="7" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                                        <real key="value" value="1 " />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+
+
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlux">
+                                                <rect key="frame" x="143" y="0" width="63" height="26" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 h 30 m" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmluz">
+<rect key="frame" x="12" y="9" width="41" height="8"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<color key="textColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="7" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                                        <real key="value" value="1 " />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+
+
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlur">
+                                                <rect key="frame" x="71" y="1" width="63" height="26" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 h" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmluu">
+<rect key="frame" x="23" y="9" width="13" height="8"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="0.7" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="7" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                                        <real key="value" value="1 " />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+
+
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlum">
+                                                <rect key="frame" x="0" y="0" width="63" height="26" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30 min" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlun">
+<rect key="frame" x="14" y="9" width="33" height="8"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="0.7" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="7" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                                        <real key="value" value="1" />
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                                        <real key="value" value="1 " />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+
+                                        </subviews>
+                                    </view>
+
+
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmltk">
+                                        <rect key="frame" x="22" y="51" width="283" height="25" />
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmltm">
+                                                <rect key="frame" x="7" y="5" width="268" height="16" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name your activity" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmltr">
+<rect key="frame" x="5" y="4" width="93" height="11"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="0.7" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmltn">
+                                                        <rect key="frame" x="0" y="0" width="2" height="16" />
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                        <subviews>
+
+                                                        </subviews>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="1" />
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+
+
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmltt">
+                                                        <rect key="frame" x="259" y="0" width="9" height="15" />
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                        <subviews>
+
+                                                        </subviews>
+                                                    </view>
+
+                                                </subviews>
+                                            </view>
+
+                                        </subviews>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="7" />
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+
+
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start a new activity" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlti">
+<rect key="frame" x="89" y="21" width="153" height="17"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="18"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="0.7" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="9" />
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+
+
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsc">
+                                <rect key="frame" x="62" y="67" width="274" height="252" />
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsd">
+                                        <rect key="frame" x="0" y="0" width="252" height="252" />
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                        <color key="backgroundColor" red="0.9333333333333333" green="0.9333333333333333" blue="0.9333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlse">
+                                                <rect key="frame" x="1" y="0" width="262" height="204" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsh">
+                                                        <rect key="frame" x="20" y="22" width="210" height="211" />
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                        <color key="backgroundColor" red="0.9333333333333333" green="0.9333333333333333" blue="0.9333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01:30:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                                                adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsm">
+<rect key="frame" x="75" y="171" width="60" height="12"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="0.5607843137254902" green="0.5529411764705883" blue="0.5529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="not running" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                                                adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsi">
+<rect key="frame" x="75" y="23" width="61" height="11"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="12"/>
+<color key="textColor" red="0.5333333333333333" green="0.5333333333333333" blue="0.5333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                                        </subviews>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="105" />
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+
+
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsf">
+                                                        <rect key="frame" x="0" y="0" width="215" height="204" />
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="stringUrl" value="https://designresources.assets.yotako.io/40599uf7jd2qkjaz.png" />
+                                                        </userDefinedRuntimeAttributes>
+                                                    </imageView>
+
+
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsw">
+                                                        <rect key="frame" x="242" y="47" width="20" height="21" />
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                        <color key="backgroundColor" red="0.9333333333333333" green="0.9333333333333333" blue="0.9333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsx">
+                                                                <rect key="frame" x="5" y="5" width="12" height="12" />
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                                <subviews>
+
+                                                                </subviews>
+                                                            </view>
+
+                                                        </subviews>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10" />
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                                                <real key="value" value="1" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                                                <real key="value" value="1" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                                                <real key="value" value="1" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                                                <real key="value" value="1 " />
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+
+
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlsr">
+                                                        <rect key="frame" x="227" y="21" width="20" height="21" />
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                        <color key="backgroundColor" red="0.9333333333333333" green="0.9333333333333333" blue="0.9333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlst">
+                                                                <rect key="frame" x="7" y="6" width="8" height="13" />
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="stringUrl" value="https://designresources.assets.yotako.io/40599uf7jd2qkjjf.png" />
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+
+                                                        </subviews>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10" />
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                                                <real key="value" value="1" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                                                <real key="value" value="1" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                                                <real key="value" value="1" />
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                                                <real key="value" value="1 " />
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+
+                                                </subviews>
+                                            </view>
+
+                                        </subviews>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="126" />
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+
+
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO"
+                                        adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmltb">
+<rect key="frame" x="269" y="53" width="5" height="8"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO"
+                                        adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlt9">
+<rect key="frame" x="254" y="26" width="6" height="8"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                </subviews>
+                            </view>
+
+
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmls0">
+                                <rect key="frame" x="264" y="58" width="52" height="30" />
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmls3">
+                                        <rect key="frame" x="0" y="0" width="30" height="30" />
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                        <color key="backgroundColor" red="0.9333333333333333" green="0.9333333333333333" blue="0.9333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmls4">
+                                                <rect key="frame" x="6" y="6" width="19" height="18" />
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <subviews>
+
+                                                </subviews>
+                                            </view>
+
+                                        </subviews>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15" />
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                                <real key="value" value="1" />
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                                <real key="value" value="1" />
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                                <real key="value" value="1" />
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                                <real key="value" value="1 " />
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+
+
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO"
+                                        adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmls8">
+<rect key="frame" x="36" y="9" width="16" height="12"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                </subviews>
+                            </view>
+
+
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlru">
+                                <rect key="frame" x="18" y="30" width="133" height="18" />
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlrv">
+                                        <rect key="frame" x="0" y="0" width="25" height="18" />
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="stringUrl" value="https://designresources.assets.yotako.io/40599uf7jd2qkjno.png" />
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+
+
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Screen" textAlignment="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines"
+                                        adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="40599uf1jd2qmlrw">
+<rect key="frame" x="35" y="5" width="98" height="12"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="16"/>
+<color key="textColor" red="0.9019607843137255" green="0.9019607843137255" blue="0.9058823529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</label>
+                                </subviews>
+                            </view>
+
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                        <viewLayoutGuide key="safeArea" id="40599uf7jd2qkijk-viewLayoutGuide" />
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-40599uf7jd2qkijk" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+        </scene>
+    </scenes>
+</document>
